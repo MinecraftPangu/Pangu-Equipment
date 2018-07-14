@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "pangu-tools",
+    "name": "Pangu Tools",
+    "description": "Tools with chinese culture.",
+    "version": "1.0.0",
+    "mcversion": "1.12.2",
+    "url": "https://mccraft.cn/project/pangu_tools",
+    "updateUrl": "",
+    "authorList": [
+      "Trychen"
+    ],
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": ["pangu"]
+  }
+]
