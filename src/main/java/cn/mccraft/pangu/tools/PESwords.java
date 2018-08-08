@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 
 @SharedCreativeTab("tools")
-public interface PTSwords {
+public interface PESwords {
     Item.ToolMaterial BRONZE = EnumHelper.addToolMaterial("PT_BRONZE", 2, 200, 5.2F, 1.8F, 14);
 
     @RegItem
