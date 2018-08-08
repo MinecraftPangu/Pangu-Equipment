@@ -1,9 +1,9 @@
 item.bronzeBroadSword.name=青铜大刀
 item.bronzeSword.name=青铜剑
-item.buddhist_monks_knife.name=戒刀
-item.buddhist_monks_knife.lore=面对越厚重的盔甲，攻击力越高
+item.buddhistMonksKnife.name=戒刀
+item.buddhistMonksKnife.lore=面对越厚重的盔甲，攻击力越高
 
-item.crash_buddhist_monks_knife.name=破戒戒刀
-item.crash_buddhist_monks_knife.lore=面对越厚重的盔甲，攻击力越高
+item.crashBuddhistMonksKnife.name=破戒戒刀
+item.crashBuddhistMonksKnife.lore=面对越厚重的盔甲，攻击力越高
 
-item.joint_staff.name=水磨禅杖
+item.jointStaff.name=水磨禅杖

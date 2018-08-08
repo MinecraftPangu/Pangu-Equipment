@@ -1,0 +1,9 @@
+item.bronzeBroadSword.name=Bronze Broad Sword
+item.bronzeSword.name=Bronze Sword
+item.buddhistMonksKnife.name=Buddhist Monks Knife
+item.buddhistMonksKnife.lore=Damage base on the level of entity's armor
+
+item.crashBuddhistMonksKnife.name=Crashing Buddhist Monks Knife
+item.crashBuddhistMonksKnife.lore=Damage base on the level of entity's armor
+
+item.jointStaff.name=Joint Staff

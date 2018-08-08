@@ -1,30 +1,31 @@
 package cn.mccraft.pangu.tools;
 
 import cn.mccraft.pangu.core.item.PGSword;
+import cn.mccraft.pangu.core.item.ToolMaterialHelper;
 import cn.mccraft.pangu.core.loader.annotation.RegItem;
 import cn.mccraft.pangu.core.loader.creativetabs.SharedCreativeTab;
 import net.minecraft.item.Item;
-import net.minecraftforge.common.util.EnumHelper;
 
 @SharedCreativeTab("tools")
 public interface PESwords {
-    Item.ToolMaterial BRONZE = EnumHelper.addToolMaterial("PT_BRONZE", 2, 200, 5.2F, 1.8F, 14);
+
+    Item.ToolMaterial BRONZE = ToolMaterialHelper.builder("PT_BRONZE", Item.ToolMaterial.IRON).setAttackDamage(5).build();
 
     @RegItem
-    PGSword bronzeBroadSword = new PGSword(BRONZE);
+    Item bronzeBroadSword = PESword.of(BRONZE);
 
     @RegItem
-    PGSword bronzeSword = new PGSword(BRONZE).setFireHitEntity(5);
+    Item bronzeSword = PESword.of(BRONZE).setFireHitEntity(5);
 
     @RegItem
-    PGSword jointStaff = new PGSword(BRONZE);
+    Item jointStaff = PESword.of(BRONZE);
 
     @RegItem
-    PGSword crashBuddhistMonksKnife = new PGSword(BRONZE);
+    PGSword crashBuddhistMonksKnife = PESword.of(BRONZE);
 
     @RegItem
-    PGSword buddhistMonksKnife = new PGSword(BRONZE);
+    PGSword buddhistMonksKnife = PESword.of(BRONZE);
 
     @RegItem
-    PGSword buddhistCane = new PGSword(BRONZE);
+    PGSword buddhistCane = PESword.of(BRONZE);
 }
